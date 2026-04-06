@@ -40,4 +40,4 @@ notebooks/.ipynb_checkpoints/
 
 # logs
 *.log
-logs/
+logs/.env
