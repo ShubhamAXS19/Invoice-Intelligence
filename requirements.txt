@@ -1,0 +1,40 @@
+# ── OCR ──────────────────────────────────────────
+paddlepaddle==2.6.2
+paddleocr==2.7.3
+opencv-python-headless==4.9.0.80   # headless avoids Qt conflicts on Mac
+
+# ── LLM & orchestration ──────────────────────────
+openai==1.30.1
+anthropic==0.28.0
+langchain==0.2.5
+langchain-openai==0.1.8
+langchain-anthropic==0.1.15
+langchain-community==0.2.5
+
+# ── RAG & vector store ───────────────────────────
+chromadb==0.5.0
+sentence-transformers==3.0.1
+
+# ── Structured output & validation ───────────────
+pydantic==2.7.1
+pydantic-settings==2.3.1           # for .env loading
+
+# ── API ──────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9            # for file upload endpoints
+
+# ── Data & utilities ─────────────────────────────
+Pillow==10.3.0
+pdf2image==1.17.0                  # for GST corpus PDF parsing
+pypdf==4.2.0
+python-dotenv==1.0.1
+tqdm==4.66.4
+
+# ── Evaluation & observability ───────────────────
+evaluate==0.4.2                    # for OCR accuracy metrics
+mlflow==2.13.2                     # you already know this from credit risk project
+
+# ── Testing ──────────────────────────────────────
+pytest==8.2.2
+httpx==0.27.0                      # for FastAPI test client

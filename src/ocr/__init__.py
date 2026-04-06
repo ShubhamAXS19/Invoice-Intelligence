@@ -1,0 +1,1 @@
+from .paddle_extractor import extract_text, load_ground_truth, OCRResult

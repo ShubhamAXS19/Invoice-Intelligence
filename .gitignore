@@ -1,0 +1,43 @@
+# virtual environment
+venv/
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# data — never commit raw or processed data
+data/raw/
+data/processed/
+
+# vector store
+.chroma/
+
+# ml artifacts
+mlruns/
+*.pkl
+*.pt
+*.onnx
+
+# jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# paddleocr model cache
+/Users/*/.paddleocr/
+
+# macos
+.DS_Store
+
+# ide
+.vscode/
+.idea/
+
+# logs
+*.log
+logs/
