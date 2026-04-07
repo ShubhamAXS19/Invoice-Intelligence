@@ -1,0 +1,61 @@
+# GST Invoice Rules — Mandatory Fields (Rule 46, CGST Rules 2017)
+
+## Rule 46: Tax Invoice
+A tax invoice issued by a registered person must contain the following mandatory fields:
+
+1. Name, address and GSTIN of the supplier
+2. A consecutive serial number, not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters (hyphen or dash and slash) unique for a financial year
+3. Date of issue of the invoice
+4. Name, address and GSTIN or UIN of the recipient if registered
+5. Name and address of the recipient and delivery address, along with state name and state code, if recipient is unregistered and value of taxable supply is fifty thousand rupees or more
+6. HSN code for goods or SAC code for services
+7. Description of goods or services
+8. Quantity in case of goods and unit or unique quantity code thereof
+9. Total value of supply of goods or services or both
+10. Taxable value of supply of goods or services or both taking into account discount or abatement
+11. Rate of tax (CGST, SGST, IGST, UTGST)
+12. Amount of tax charged in respect of taxable goods or services (CGST, SGST, IGST, UTGST)
+13. Place of supply along with the name of state, in case of a supply in the course of inter-state trade or commerce
+14. Address of delivery where the same is different from the place of supply
+15. Whether the tax is payable on reverse charge basis
+16. Signature or digital signature of the supplier or his authorised representative
+
+## GSTIN Format
+A GSTIN (Goods and Services Tax Identification Number) must be exactly 15 characters:
+- Characters 1-2: State code (numeric, e.g., 27 for Maharashtra, 29 for Karnataka, 33 for Tamil Nadu)
+- Characters 3-12: PAN of the taxpayer (alphabets and numerals)
+- Character 13: Entity number (numeric, 1-9 then A-Z)
+- Character 14: Always the letter 'Z'
+- Character 15: Check digit (numeric or alphabet)
+Example valid GSTIN: 27AABCU9603R1ZM
+
+## HSN Code Requirements
+- Businesses with annual turnover up to Rs. 1.5 crore: HSN code not mandatory
+- Businesses with annual turnover between Rs. 1.5 crore and Rs. 5 crore: 2-digit HSN code mandatory
+- Businesses with annual turnover above Rs. 5 crore: 4-digit HSN code mandatory
+- For exports: 8-digit HSN code mandatory
+
+## Tax Rates
+Standard GST tax rate slabs:
+- 0% (exempt): Essential goods — milk, eggs, fresh vegetables, books
+- 5%: Essential commodities — edible oil, sugar, spices, tea, coffee
+- 12%: Processed foods, computers, business class air tickets
+- 18%: Most goods and services — soaps, hair oil, capital goods, industrial intermediaries
+- 28%: Luxury goods — cars, tobacco, aerated drinks, high-end motorcycles
+
+CGST and SGST are each half of the applicable GST rate for intra-state supply.
+IGST equals the full GST rate for inter-state supply.
+
+## Invoice Value Validation
+- Total invoice value = Taxable value + CGST amount + SGST amount (or IGST amount)
+- Discount must be mentioned on the invoice if deducted before tax calculation
+- Post-sale discounts require a credit note
+
+## Time Limit for Issuing Invoice
+- Goods: Invoice must be issued at the time of removal or delivery
+- Services: Invoice must be issued within 30 days of supply of service
+- Banking and financial services: Within 45 days
+
+## Penalties for Non-Compliance
+- Non-issuance of invoice: Penalty of Rs. 10,000 or tax evaded, whichever is higher
+- Incorrect invoice: Penalty of Rs. 25,000
